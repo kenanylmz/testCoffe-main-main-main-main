@@ -16,7 +16,7 @@ const {width} = Dimensions.get('window');
 const CARD_WIDTH = width * 0.45;
 
 const AdminHome = () => {
-  const [stats, setStats] = useState(null);
+  const [stats, setStats] = useState(null);//yorum satırı
   const [loading, setLoading] = useState(true);
   const [cafeName, setCafeName] = useState('');
 
